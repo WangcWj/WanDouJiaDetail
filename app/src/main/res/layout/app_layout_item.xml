@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:id="@+id/item"
+    android:gravity="center_vertical"
+    android:background="#ffffff"
+    android:paddingLeft="15dp"
+    android:layout_height="75dp">
+   <ImageView
+       android:id="@+id/app_item_image"
+       android:layout_width="wrap_content"
+       android:src="@mipmap/ic_aqy"
+       android:scaleType="centerCrop"
+       android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/app_item_name"
+        android:text="爱奇艺"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
